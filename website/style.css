@@ -1,9 +1,14 @@
-@keyframes rainbow { 
-    0%{background-position:0% 82%}
-    50%{background-position:100% 19%}
-    100%{background-position:0% 82%}
+@keyframes rainbow {
+	0%    {background-color: #ff00ff};
+	100%  {background-color: #0000ff};
+	
 }
 
 body {
-	background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
+	background-color: #0000ff;
+	animation-name: rainbow;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	font-family: Tahoma, Geneva, sans-serif;
 }
